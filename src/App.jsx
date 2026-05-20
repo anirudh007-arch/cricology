@@ -1,3 +1,4 @@
+import LiveScores from "./LiveScores";
 import {
   Activity,
   ArrowRight,
@@ -406,6 +407,8 @@ export default function App() {
             </div>
           </div>
         </section>
+
+        <LiveScores />
 
         <section className="mx-auto max-w-7xl px-4 pb-16 md:px-6">
           <SectionHeader eyebrow="Team metrics" title="Performance matrix" />
