@@ -1,3 +1,4 @@
+import IndiaStreakChart from "./IndiaStreakChart";
 import LiveScores from "./LiveScores";
 import {
   Activity,
@@ -298,22 +299,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="rounded-lg border border-white/10 bg-white/[0.045] p-4 shadow-[0_0_48px_rgba(214,167,68,0.16)]">
-            <div className="mb-4 flex items-center justify-between">
-              <div>
-                <p className="text-xs font-medium uppercase tracking-[0.18em] text-white/45">
-                  Live model preview
-                </p>
-                <h2 className="mt-1 text-xl font-semibold text-white">
-                  India chase projection
-                </h2>
-              </div>
-              <span className="rounded-full bg-emerald-400/12 px-3 py-1 text-sm font-semibold text-emerald-300">
-                68% IND
-              </span>
-            </div>
-            <RunRateChart />
-          </div>
+        <IndiaStreakChart />
         </section>
 
         <section className="mx-auto max-w-7xl px-4 pb-16 md:px-6">
